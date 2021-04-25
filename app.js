@@ -2,10 +2,18 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const mongoose = require('mongoose');
+const DB = 'mongodb+srv://Naveen:Naveen@12062002@cluster0.idomi.mongodb.net/NaveenDanceAcademyDatabase?retryWrites=true&w=majority'
 const bodyparser = require('body-parser');
 
+
+
 const { stringify } = require('querystring');
-mongoose.connect('mongodb://localhost/contactDance', {useNewUrlParser: true, useUnifiedTopology: true});
+// mongoose.connect('mongodb://localhost/contactDance', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect(DB, {useNewUrlParser: true, useUnifiedTopology: true}).then(()=>{
+    console.log("connection successful")
+}).catch((err)=>{
+    console.log("connection failed")
+})
 const app = express();
 const port = process.env.PORT || 8000;
 
