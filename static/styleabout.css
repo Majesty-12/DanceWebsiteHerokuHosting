@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: radial-gradient(circle,white 70%, rgb(221, 67, 67) 110%);
+}
+
+h1{
+    text-align: center;
+    margin-top:25px;
+    margin-bottom: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.content{
+    padding: 10px 18px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 29px;
+    margin-bottom: 100px;
+    border-radius: 12px;
+    border: 2px solid rgb(221, 67, 67);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.content:hover{
+    box-shadow: 2px 3px 45px 2px rgb(221, 67, 67);
+    /* background-color:  rgb(224, 116, 116); */
+    /* color: white; */
+}
+    

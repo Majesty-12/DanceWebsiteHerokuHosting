@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1{
+    text-align: center;
+    margin-top:25px;
+    /* margin-bottom: 5px; */
+    font-family: 'Righteous', cursive;
+    
+}
+body{
+    background-image: radial-gradient(circle,white 70%, rgb(221, 67, 67) 110%);
+
+}
+
+
+.myform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 65vh;
+    
+    /* background-image: radial-gradient(circle,white 70%, rgb(221, 67, 67) 110%); */
+}
+
+.myinput{
+    border: 1.5px solid red;
+    font-size: 16px;
+    width: 40%;
+    border-radius: 12px;
+    margin: 9px;
+    padding: 9px;
+    /* text-align: center; */
+    outline: none;
+    margin-bottom: 10px;
+    
+}
+
+.myinput:hover{
+    box-shadow: 2px 3px 35px 2px rgb(221, 67, 67);
+}
+.btn{
+    font-size: 18px;
+    padding: 6px 18px;
+    /* border: 2px solid black; */
+    background-color:rgb(221, 67, 67);
+    color:white;
+    border-radius: 11px;
+    width: 100px;
+    cursor: pointer;
+    margin-top: 1ch;
+    margin-bottom: 5ch;
+    outline: none;
+}
+
+.btn:hover{
+    color: black;
+    background-color: rgb(221, 67, 67);
+    box-shadow: 2px 3px 45px 2px rgb(221, 67, 67);
+    /* border: 1px solid black; */
+}

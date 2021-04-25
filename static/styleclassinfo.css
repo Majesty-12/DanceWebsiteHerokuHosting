@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+h1{
+    text-align: center;
+    margin-top:25px;
+    /* margin-bottom: 5px; */
+    font-family: 'Righteous', cursive;
+    
+}
+
+.table{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.2rem;
+}
+
+.man{
+    padding: 22px 40px;
+    border: 4px solid rgb(221, 67, 67);
+    margin-right: 10px;
+    box-shadow: 2px 3px 45px 2px rgb(221, 67, 67);
+    border-radius: 10px;
+}
+
+.man:hover{
+    color: white;
+    background-color: rgb(238, 119, 119);
+}
+.woman:hover{
+    color: white;
+    background-color: rgb(238, 119, 119);
+}
+
+.woman{
+    border-radius: 10px;
+    padding: 22px 40px;
+    border: 4px solid rgb(221, 67, 67);
+    margin-left: 10px;
+    box-shadow: 2px 3px 45px 2px rgb(221, 67, 67);
+}
+
+.feature{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    color: rgb(221, 67, 67);
+    margin: 50px 3px;
+    padding: 10px 2px;
+    font-weight: 700;
+    border-radius: 25px;
+    width: 900px;
+    margin: auto;
+    margin-bottom: 130px;
+    animation: changecolor 0.75s infinite ;
+}
+
+@keyframes changecolor{
+    from{
+        color: rgb(221, 67, 67);
+        background-color: white;
+    }
+    to{
+        color: white;
+        background-color: rgb(221, 67, 67);
+    }
+}
+.feature:hover{
+    color: white;
+    background-color: rgb(221, 67, 67);
+}

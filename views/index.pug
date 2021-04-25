@@ -1,0 +1,55 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+      ul 
+        div#logo
+          img(src="/static/img/logo.png")
+        li #[a(href="/" ) Home ]
+        li #[a(href="/") Class Info ]
+        li #[a(href="/") Services]
+        li #[a(href="/") About ]
+        li #[a(href="/") Contact Us ]
+    
+    section#introsection 
+      div Welcome to Naveen's Dance Academy
+      div.small Learn Dance, Live Energetic
+    
+    section#missionsection 
+      h2 Our Mission
+      div.break
+        h1 ______
+      div#cardbox
+        div.card
+          h3 Dance the Way you Like
+          img(src="/static/img/p1.jpg", height='155px', width='100px')
+        div.card
+          h3 Dance Perfection
+          img(src="/static/img/p2.jpg", height='155px', width='100px')
+        div.card
+          h3 Bring Out One's Talent
+          img(src="/static/img/p3.jpg", height='155px', width='100px')
+
+
+    section#sponsorssection 
+      h2 Our Sponsors
+      div#sponsor
+        img(src="/static/img/logo1.png", alt="Sponsor Image", class="spimage")
+        img(src="/static/img/logo2.png", alt="Sponsor Image", class="spimage")
+        img(src="/static/img/logo3.png", alt="Sponsor Image", class="spimage")
+        img(src="/static/img/logo4.png", alt="Sponsor Image", class="spimage")
+        img(src="/static/img/logo5.png", alt="Sponsor Image", class="spimage")
+
+
+
+    footer#footer 
+      div#copyright
+      | Copyright© 2021 NaveenDanceAcademy.com | All Rights Reserved
+
+
+    script
+      include ../static/index.js

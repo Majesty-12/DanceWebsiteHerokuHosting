@@ -1,0 +1,30 @@
+extends base.pug
+
+block style 
+    style 
+        include ../static/styleclassinfo.css
+        include ../static/style.css
+
+block content 
+    h1 Class Information
+    div(class="table")
+        span(class='man')
+            | Timings for the Men are :
+            br
+            | Morning : 6 AM - 9 AM
+            br
+            | Evening : 7 PM - 10 PM
+            br
+        span(class='woman')
+            | Timings for the Women are :
+            br
+            | Morning : 8 AM - 11 AM
+            br
+            | Evening : 5 PM - 8 PM
+    div(class="feature")
+        | >> Separate Classes are managed for Mens and Womens <<
+        br
+        | >> Special Training Session for Children <<
+        br
+        | >> Best Academy in the City <<
+            
